@@ -1,4 +1,9 @@
-package parsing_task;
+package parsing_task.parser;
+
+import parsing_task.model.Child;
+import parsing_task.model.ChildParsed;
+import parsing_task.model.ObjectToParse;
+import parsing_task.model.ParsedObject;
 
 import java.util.ArrayList;
 import java.util.List;

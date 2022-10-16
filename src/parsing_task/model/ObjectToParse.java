@@ -1,4 +1,4 @@
-package parsing_task;
+package parsing_task.model;
 
 import java.util.List;
 import java.util.Optional;
@@ -161,10 +161,10 @@ public class ObjectToParse {
 
         private void checkIfValid(ObjectToParse objectToParse){
             if (doesNotHaveIpAddress(objectToParse)){
-                throw new IllegalArgumentException("parsing_task.ObjectToParse must have at least one ipAddress: V4 or V6.");
+                throw new IllegalArgumentException("parsing_task.model.ObjectToParse must have at least one ipAddress: V4 or V6.");
             }
             if (notCorrectIpAddressMask(objectToParse)){
-                throw new IllegalArgumentException("parsing_task.ObjectToParse must have at least one ipAddressMask: " +
+                throw new IllegalArgumentException("parsing_task.model.ObjectToParse must have at least one ipAddressMask: " +
                         "for V4 it must be integer between 1-32, for V6 it must be integer between 33-64.");
             }
         }

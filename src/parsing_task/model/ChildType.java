@@ -1,13 +1,13 @@
-package parsing_task;
+package parsing_task.model;
 
-public enum Type {
+public enum ChildType {
 
-    LINK("Link"),
-    PATH("Path"),
-    ETHERNET("Ethernet");
+    LINK("LinkChild"),
+    PATH("PathChild"),
+    ETHERNET("EthernetChild");
 
     private final String displayType;
-    Type(String displayType) {
+    ChildType(String displayType) {
         this.displayType = displayType;
     }
 

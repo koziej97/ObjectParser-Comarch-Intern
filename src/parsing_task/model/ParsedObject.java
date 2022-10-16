@@ -1,4 +1,4 @@
-package parsing_task;
+package parsing_task.model;
 
 import java.util.List;
 

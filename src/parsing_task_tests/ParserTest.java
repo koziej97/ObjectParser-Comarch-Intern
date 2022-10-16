@@ -3,7 +3,8 @@ package parsing_task_tests;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import parsing_task.*;
+import parsing_task.model.*;
+import parsing_task.parser.Parser;
 
 import java.util.List;
 import java.util.Optional;

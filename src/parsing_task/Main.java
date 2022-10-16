@@ -1,5 +1,8 @@
 package parsing_task;
 
+import parsing_task.model.*;
+import parsing_task.parser.Parser;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;

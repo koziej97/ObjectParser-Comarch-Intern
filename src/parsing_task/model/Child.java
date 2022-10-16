@@ -1,4 +1,4 @@
-package parsing_task;
+package parsing_task.model;
 
 public class Child {
     private String attributeName;
